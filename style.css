@@ -2,7 +2,8 @@
 
 article{
     display: grid;
-    grid-template-columns: 80px 1fr 80px;
+    grid-template-columns: 100px 1fr 100px;
+    gap: 5px;
 }
 
 article > * {
@@ -13,4 +14,12 @@ article > * {
 article > figure{
     grid-column: 1 / -1;
     margin: 10px 0;
+}
+
+section{
+    grid-column: 3;
+    font-size: 12px;
+    color: #666;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
 }
