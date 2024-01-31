@@ -1,0 +1,16 @@
+
+
+article{
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+}
+
+article > * {
+    grid-column: 2;
+    min-width: 0;
+}
+
+article > figure{
+    grid-column: 1 / -1;
+    margin: 10px 0;
+}
